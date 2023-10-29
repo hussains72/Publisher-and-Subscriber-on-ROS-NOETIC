@@ -1,2 +1,2 @@
 # Publisher & Subscriber Node
-How to createa publisher and subscriber node
+How to create publisher and subscriber node
