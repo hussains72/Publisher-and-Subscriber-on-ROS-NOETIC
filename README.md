@@ -14,5 +14,19 @@ mkdir -p ~/include/beginner_tutorials
 
 cd ..  
 
-catkin_make
+catkin_make  
+
+open another terminal and run roscore  
+
+cd catkin_ws  (already opened terminal)  
+
+rosrun beginner_tutorials talker  
+
+open another terminal  
+
+cd ~/catkin_ws  
+
+source devel/setup.bash  
+
+rosrun beginner_tutoials listener 
 
