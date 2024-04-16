@@ -12,16 +12,14 @@ catkin_make
 ```  
 
 open another terminal and run roscore  
-
-cd catkin_ws  (already opened terminal)  
-
+```
+cd catkin_ws
 rosrun beginner_tutorials talker  
-
+```
 open another terminal  
-
+```
 cd ~/catkin_ws  
-
 source devel/setup.bash  
-
-rosrun beginner_tutoials listener 
+rosrun beginner_tutoials listener
+```
 
